@@ -3,16 +3,16 @@ import ProjectsShowcase from "./ProjectsShowcase"
 import placeholderImage from "../../Assets/placeholder.png";
 
 const projectsStyle: React.CSSProperties = {
-    alignItems: 'center',
-    justifyContent: 'center',
-    display: 'flex',
-    flexDirection: 'column',
+    alignItems: "center",
+    justifyContent: "center",
+    display: "flex",
+    flexDirection: "column",
     zIndex: 3,
     
 }
 
 const showcaseDescriptionStyle: React.CSSProperties = {
-    marginBottom: '10vh'
+    marginBottom: "10vh"
 }
 
 const theBistroCafe = [

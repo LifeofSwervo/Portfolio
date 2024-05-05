@@ -1,11 +1,11 @@
 const aboutIntroStyle: React.CSSProperties = {
-    backgroundColor: '#0C1618',
+    backgroundColor: "#0C1618",
     height: "75vh",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
     flexDirection: "column",
-    width: '100%',
+    width: "100%",
 }
 
 

@@ -1,7 +1,7 @@
 
 const mainDiv: React.CSSProperties = {
     height: "75vh",
-    backgroundColor: '#0C1618',
+    backgroundColor: "#0C1618",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",

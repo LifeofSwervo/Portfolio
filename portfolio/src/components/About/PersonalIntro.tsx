@@ -21,7 +21,7 @@ const PersonalIntro = () => {
                 My name is Clarence Paul Thomas.
             </p>
             <p>
-                I'm a computer science student based in Omaha Nebraska.
+                I&#39;m a computer science student based in Omaha Nebraska.
             </p>
         </div>
     )

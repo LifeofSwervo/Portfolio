@@ -1,0 +1,230 @@
+/* Clarence Thomas, assignment8.css, 1311 WW, May 11th, 2022. */
+body {
+    color: #ffffff;
+    background-color: #121212;
+    text-shadow: 2px 2px 2px #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-image: url(whiteLogo.png), url(whiteLogo.png); /*Made on Gimp*/
+    background-position: left center, right center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    border: 9px ridge #292828;
+    text-align: center;
+    height: 150px;
+    border-radius: 10px;
+    margin: 0px 5px 0px 5px;
+    padding-left: 30px;
+}
+
+nav {text-align: center;}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+    list-style-type: none;
+}
+
+nav li {
+    border: 4px inset #3D3D3D;
+    padding: 10px;
+    background-color: #80848A;
+    border-radius: 10px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+nav a:link       { color: #308EBA; }
+
+nav a:visited { color: #5280C5; }
+
+nav a:hover     { color: #3262A3; }
+
+h1 {
+    font-family: "Matura MT Script", sans-serif, Arial;
+    color: #FFFFFF;
+    padding-top: 40px;
+    padding-left: 30px;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+h2 {
+    font-weight: light;
+    font-size: 1.5em;
+}
+
+label {
+    font-size: 0.9em;
+    font-weight: lighter;
+    text-align: center;
+    text-align: left;
+}
+
+legend {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+fieldset {
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0px 5px 0px 5px;
+}
+
+video {
+    height: 240px;
+    width: 320px;
+    border: 7px ridge #3D3D3D;
+    border-radius: 15px;
+}
+
+fieldset li {
+    margin: 25px 0px 25px 0px;
+}
+
+fieldset ul {
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+    border-bottom: 4px ridge #3D3D3D;
+    border-radius: 15px;
+    margin: 20px auto 20px auto;
+
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer ul {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    display: flex;
+}
+
+footer a:link       { color: #308EBA; }
+
+footer a:visited { color: #5280C5; }
+
+footer a:hover     { color: #3262A3; }
+
+#wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+#navHome {
+    background-image: url(homeIcon.png); /*Made on Gimp*/
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 37% 50%;
+}
+
+#homeFood {
+    height: 440px;
+    width: 80%;
+    border: 7px ridge #3D3D3D;
+    border-radius: 15px;
+}
+
+
+#historyFood {
+    height: 340px;
+    width: 240px;
+    border: 7px ridge #3D3D3D;
+    border-radius: 15px;
+}
+
+#lastName, #firstName, #eMail, #phone {
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#question, #submit, #reset {
+    border-radius: 10px;
+}
+
+#formNames {
+    margin-bottom: 5px;
+}
+
+#footerHome {
+    background-image: url(homeIcon.png); /* Made on gimp */
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: left;
+    padding-left: 20px;
+}
+
+@media (min-width: 800px) {
+
+    nav {
+        margin: auto;
+    }
+    nav ul {
+        flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+        border-bottom: 4px ridge #3D3D3D;
+        border-radius: 15px;
+    }
+
+    nav li {
+        background-color: #121212;
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+        margin: auto;
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+
+    #navHome {
+        background-image: url(homeIcon.png); /*Made on Gimp*/
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: left;
+        padding-left: 30px;
+    }
+
+    #wrapper {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+
+    header {
+        margin: auto;
+        background-image: url(whiteLogo.png), url(whiteLogo.png); /*Made on gimp*/
+        background-position: left center, right center;
+        background-repeat: no-repeat;
+        background-size: 150px;
+    }
+
+    fieldset {
+        margin: auto;
+    }
+
+    #homeFood {
+        width: 55%;
+        height: 540px;
+    }
+
+    #historyFood {
+        height: 540px;
+        width: 440px;
+    }
+}
+

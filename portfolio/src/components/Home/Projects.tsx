@@ -69,7 +69,7 @@ const Projects = () => {
                     name="Ninja Runner"
                     description="This was a basic running game I made in pygame using python. This was my first attempt at my own game from scratch. I learned proper game loop structure, collision detection, and basic game mechanics. This was a fun project to work on and I learned a lot from it."
                     techUsed="Python, Pygame."
-                    linkToCode="https://github.com/LifeofSwervo/Portfolio/tree/main/NinjaRunner"
+                    linkToCode="https://github.com/LifeofSwervo/Portfolio/tree/main/Ninja%20Runner"
                 />
             </div>
             

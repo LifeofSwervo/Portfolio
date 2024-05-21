@@ -58,37 +58,43 @@ export default function Contact() {
             title="Github"
             image="/Logos/ContactLogos/github.svg"
             description="My GitHub is where I keep all of my projects and code snippets. If you want to see what I'm working on, check out my GitHub."
-            username="LifeOfSwervo"
+            username="@LifeOfSwervo"
+            link="https://github.com/LifeofSwervo"
           />
           <ContactMethod 
             title="LinkedIn"
             image="/Logos/ContactLogos/linkedIn.svg"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            description="My LinkedIn profile showcases my professional journey, skills, and experiences. If you want to learn more about my background and connect."
             username="Clarence Thomas"
+            link="https://www.linkedin.com/in/clarence-t-481920205"
           />
           <ContactMethod 
             title="Discord"
             image="/Logos/ContactLogos/discord.svg"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            description="Join me on Discord to chat and collaborate. If you want to connect and discuss ideas, you can find me here."
             username="Lifeofswervo"
+            link=""
           />
           <ContactMethod 
             title="YouTube"
             image="/Logos/ContactLogos/youtube.svg"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-            username="placeholder"
+            description="Check out my YouTube channel to see my latest videos and tutorials. If you want to stay updated on what I’m creating, subscribe here"
+            username="Swervo Life"
+            link="https://www.youtube.com/channel/UCdZ2MBALCSVL-Zfn6upNbOw"
           />
           <ContactMethod 
             title="Twitter"
             image="/Logos/ContactLogos/twitter.svg"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-            username="Swervo_Life"
+            description="Follow me on Twitter to stay updated on my latest thoughts and projects. If you want to connect and see what I'm up to, check out my profile."
+            username="@Swervo_Life"
+            link="https://x.com/Swervo_Life"
           />
           <ContactMethod 
             title="Email"
             image="/Logos/ContactLogos/email.svg"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            description="Feel free to reach out to me via email for any inquiries or collaborations. If you want to connect and discuss further, you can email me."
             username="SwervoLife@gmail.com"
+            link="mailto:SwervoLife@gmail.com"
           />
         </div>
         <Footer />
